@@ -303,6 +303,16 @@
             Text="=" 
             FontSize="28"
             Command="{Binding CalculateCommand}"/>
+        
+        <!-- Numbers -->
+        <Button
+            Grid.Row="6"
+            Grid.Column="0"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="7" 
+            FontSize="28"
+            />
 
     </Grid>
 
