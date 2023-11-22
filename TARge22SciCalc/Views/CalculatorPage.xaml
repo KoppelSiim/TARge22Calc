@@ -402,6 +402,39 @@
             Command="{Binding MathOperatorCommand}"
             CommandParameter="3"/>
 
+        <!-- Fourth row-->
+
+        <Button
+            Grid.Row="9"
+            Grid.Column="0"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="0" 
+            FontSize="28"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="0"/>
+
+        <Button
+            Grid.Row="9"
+            Grid.Column="1"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="." 
+            FontSize="28"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="."/>
+
+        <Button
+            Grid.Row="9"
+            Grid.Column="2"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="x" 
+            FontSize="28"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="x"/>
+
+
     </Grid>
 
 </ContentPage>
