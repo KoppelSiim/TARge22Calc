@@ -304,15 +304,103 @@
             FontSize="28"
             Command="{Binding CalculateCommand}"/>
         
-        <!-- Numbers -->
+        <!-- Numbers, first row is 6 -->
+        <!-- First row-->
+        <!-- TODO Check if binding is okay -->
+        
         <Button
             Grid.Row="6"
             Grid.Column="0"
             Grid.ColumnSpan="1"
-            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Style="{StaticResource NumberButtonStyle}"
             Text="7" 
             FontSize="28"
-            />
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="7"/>
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="1"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="8" 
+            FontSize="28"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="8"/>
+        
+        <Button
+            Grid.Row="6"
+            Grid.Column="2"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="9" 
+            FontSize="28"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="9"/>
+        
+        <!-- Second row-->
+        
+        <Button
+            Grid.Row="7"
+            Grid.Column="0"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="4" 
+            FontSize="28"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="4"/>
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="1"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="5" 
+            FontSize="28"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="5"/>
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="2"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="6" 
+            FontSize="28"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="6"/>
+
+        <!-- Third row-->
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="0"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="1" 
+            FontSize="28"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="1"/>
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="1"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="2" 
+            FontSize="28"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="2"/>
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="2"
+            Grid.ColumnSpan="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="3" 
+            FontSize="28"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="3"/>
 
     </Grid>
 
