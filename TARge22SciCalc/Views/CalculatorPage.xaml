@@ -428,7 +428,7 @@
             Grid.Column="2"
             Grid.ColumnSpan="1"
             Style="{StaticResource NumberButtonStyle}"
-            Text="x" 
+            Text="←" 
             FontSize="28"
             Command="{Binding BackspaceCommand}"
             />
